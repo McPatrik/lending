@@ -126,7 +126,7 @@ a {
 
 .skills > h2 {
   text-align: center;
-  font-size: 2.6vw;
+  font-size: clamp(23px, 2.6vw, 45px);
   color: grey;
   font-family: 'Indie Flower', cursive;
 }
