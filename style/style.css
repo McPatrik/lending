@@ -21,7 +21,7 @@ body {
 
 .info {
   width: 47%;
-  min-width: 360px;
+  min-width: 300px;
   max-width: 800px;
   color: #f9fcad;
   background-color: rgba(238,134, 255, 0.3);
@@ -31,7 +31,7 @@ body {
 }
 .skills {
   width: 47%;
-  min-width: 360px;
+  min-width: 300px;
   max-width: 800px;
   margin-top: 40px;
   padding-bottom: 50px;
