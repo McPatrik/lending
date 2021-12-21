@@ -26,7 +26,6 @@ body {
   color: #f9fcad;
   background-color: rgba(238,134, 255, 0.3);
   border-radius: 3%;
-  margin-left: 20px;
   margin-top: 40px;
 }
 .skills {
@@ -36,8 +35,6 @@ body {
   margin-top: 40px;
   padding-bottom: 50px;
   background-color: #FFFFF0;
-  margin-left: 40px;
-  margin-right: 20px;
   border-radius: 3%;
 }
 
@@ -52,18 +49,18 @@ body {
   border-radius: 50%;
   margin: 35px;
   width: 45%;
-  min-width: 140px;
+  min-width: 125px;
 }
 .postName {
   margin-top: 50px;
-  font-size: clamp(14px, 2.6vw, 23px);
+  font-size: clamp(12px, 2.6vw, 23px);
   line-height: 90%;
   margin-right: 50px;
   font-family: 'Indie Flower', cursive;
 }
 
 .contacts-list {
-  font-size: clamp(14px, 2.6vw, 23px);
+  font-size: clamp(13px, 2.6vw, 23px);
   text-align: center;
   font-family: 'Bebas Neue', cursive;
 }
@@ -87,6 +84,7 @@ a {
   color: #f2f1fb;
 }
 .itemCourser {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
 }
@@ -111,9 +109,11 @@ a {
   display: block;
   margin: 0 auto;
   width: 75%;
+  min-width: 300px;
+  max-width: 800px;
   min-height: 80vh;
   border-radius: 10%;
-  background-color: #f9fcad;
+  background-color: #FFFFF0;
   margin-bottom: 100px;
 }
 
