@@ -67,7 +67,7 @@ body {
 }
 
 .contacts-list > .item {
-  width: 80%;
+  width: 90%;
   list-style-type: none;
   background-color: rgba(255,253,135,0.2);
   text-align: center;
@@ -133,6 +133,9 @@ a {
 
 .skillsList > .item > img {
   margin-right: 30px;
+  margin-top: 16px;
+  width: 9%;
+  min-width: 35px;
 }
 .contacts-list > .item > img {
   max-width: 10%;
