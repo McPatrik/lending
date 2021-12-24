@@ -143,8 +143,9 @@ a {
 .skillsList > li > img {
   max-width: 10%;
 }
-.project_list > li {
-  list-style-type: none;
+.project_list {
+  display: flex;
+  justify-content: space-between;
 }
 .item_project > img {
   width: 30%;
