@@ -147,11 +147,12 @@ a {
 }
 .item_project > a > img {
   width: 100%;
+  min-width: 110px;
   border-radius: 3%;
 }
 .item_project {
   margin: 50px;
 }
 .brain {
-
+  align-self: center;
 }
