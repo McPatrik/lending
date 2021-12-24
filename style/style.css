@@ -111,7 +111,7 @@ a {
   width: 90%;
   min-width: 300px;
   max-width: 1200px;
-  min-height: 80vh;
+  min-height: 300px;
   border-radius: 3%;
   background-color: #FFFFF0;
   margin-bottom: 100px;
@@ -142,7 +142,7 @@ a {
 
 .project_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: end;
 }
 .item_project > a > img {
