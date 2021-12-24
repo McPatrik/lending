@@ -146,6 +146,6 @@ a {
 .project_list > li {
   list-style-type: none;
 }
-.item_project {
+.item_project > img {
   width: 30%;
 }
