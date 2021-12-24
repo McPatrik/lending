@@ -93,7 +93,6 @@ a {
 }
 .linkProjects {
   margin-left:100px;
-  margin-bottom: 145px;
   font-size: clamp(11px, 2.6vw, 20px);
 }
 .linkProjects::after {
@@ -115,7 +114,8 @@ a {
   min-height: 190px;
   border-radius: 3%;
   background-color: #FFFFF0;
-  margin-bottom: 100px;
+  margin-bottom: 140px;
+  margin-top: 140px;
 }
 
 .skillsList > .item {
