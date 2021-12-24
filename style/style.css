@@ -49,7 +49,7 @@ body {
   border-radius: 50%;
   margin: 35px;
   width: 45%;
-  min-width: 125px;
+  min-width: 100px;
 }
 .postName {
   margin-top: 50px;
@@ -94,14 +94,15 @@ a {
 .linkProjects {
   margin-left:100px;
   margin-bottom: 145px;
+  font-size: clamp(11px, 2.6vw, 20px);
 }
 .linkProjects::after {
   content: "Projects";
-  opacity: 0;
+  opacity: 0.3;
 }
 .linkProjects:hover::after {
   opacity: 1;
-  font-size: 1.1vw;
+  font-size: clamp(13px, 2.6vw, 23px);
   padding: 3.5px;
   background-color: rgba(210, 95, 210, 0.3);
 }
