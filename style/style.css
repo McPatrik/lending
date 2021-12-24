@@ -145,7 +145,7 @@ a {
 }
 .project_list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .item_project > img {
   width: 30%;
