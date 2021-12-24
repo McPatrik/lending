@@ -147,6 +147,6 @@ a {
   display: flex;
   justify-content: space-around;
 }
-.item_project > img {
+.item_project > a > img {
   width: 30%;
 }
